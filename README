@@ -1,0 +1,15 @@
+prowl-twitter 0.1
+
+Hack this up however you like, a good chunk of it is off
+blogs, specifically John Mettraux's at
+http://jmettraux.wordpress.com/2008/11/04/ruby-twitter-growl/
+
+It's pretty straightforward. You need most of the gems
+installed as described in John's post, plus the prowl gem.
+Then just drop your Twitter u/p and your Prowl API key into
+the file and run it.
+
+To-do: * Re-enable https connection to Twitter
+	
+
+
