@@ -13,7 +13,7 @@ USER = 'user' #twitter user
 PASS = 'password' #twitter pass
 APIKEY = 'prowl api key here' #prowl api key
   
-raise 'USER, PASS, and/or APIKEY not set' if (not USER) or (not PASS)  
+raise 'USER, PASS, and/or APIKEY not set' if (not USER) or (not PASS) or (not APIKEY) 
 
 SEEN = LruHash.new(100) # max hash size  
   
